@@ -24,3 +24,39 @@ PS C:\>
 git clone https://github.com/ahn300/STUDY_GIT.git
 
 
+S C:\STUDY_GIT> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   GIT_STUDY.TXT
+
+// 변경내용 추가  
+PS C:\STUDY_GIT> git add *
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   GIT_STUDY.TXT
+
+
+//변경확정 
+PS C:\STUDY_GIT> git commit -m "clone after vs code "
+[master 123e716] clone after vs code
+ 1 file changed, 21 insertions(+)
+
+//리모트서버 push
+PS C:\STUDY_GIT> git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 831 bytes | 415.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ahn300/STUDY_GIT.git
+   8371fe0..123e716  master -> master
+PS C:\STUDY_GIT>
+
