@@ -1,1 +1,5 @@
 vs - ctrl + ` :터미널 오픈 
+git status - 상태확인
+git add . - 변경추가
+git commit -m "변경커밋" - 로컬커밋 
+git push origin master - 원격 레포지터리 커밋 
