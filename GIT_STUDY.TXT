@@ -2,4 +2,25 @@ vs - ctrl + ` :터미널 오픈
 git status - 상태확인
 git add . - 변경추가
 git commit -m "변경커밋" - 로컬커밋 
+git remote add origin
 git push origin master - 원격 레포지터리 커밋 
+
+//vs folder이동 
+//GIT REMOTE 레포지터리에서 clone (복사)
+//해당 레포지터리명 디렉토리가 존재하고 파일이 존재하면 복사불가
+
+
+PS C:\STUDY_GIT> cd ..
+PS C:\> git clone https://github.com/ahn300/STUDY_GIT.git
+fatal: destination path 'STUDY_GIT' already exists and is not an empty directory.
+PS C:\> git clone https://github.com/ahn300/STUDY_GIT.git
+Cloning into 'STUDY_GIT'...
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 11 (delta 0), reused 11 (delta 0), pack-reused 0
+Unpacking objects: 100% (11/11), 1017 bytes | 9.00 KiB/s, done.
+PS C:\>
+git clone https://github.com/ahn300/STUDY_GIT.git
+
+
